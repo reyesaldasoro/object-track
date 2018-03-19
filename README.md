@@ -2,13 +2,22 @@
 Tracking of objects, especially Artemia Franciscana
 
 <h1>Object Track</h1>
-  <!--introduction-->
-  
   
  <p><b><i>objectTrack</i></b> is a collection of Matlab routines that can be used to track objects from videos. <b><i>objectTrack</i></b> was designed to track small objects that are visible and can be distinguished from their background relatively easily, it is not intended for objects that are too close to each other or situations where the clutter makes it difficult to distinguish the objects themselves.</p> 
- <!--/introduction--> 
- <p><b><i>objectTrack</i></b> has a series of pre-processing steps that allow the subtraction of background so that the object can be segmented by intensity. The segmentation is done with a double hysteresis threshold which is a fast and effective technique, not as powerful as neural networks or deep learning, but far quicker than these or other sophisticated algorithms. Tracking is performed with a Keyhole Model of Movement. For description of the techniques see the references below.</p> 
-  
+ 
+ <p><b><i>objectTrack</i></b> has a series of pre-processing steps that allow the subtraction of background so that the object can be segmented by intensity. The segmentation is done with a double hysteresis threshold which is a fast and effective technique, not as powerful as neural networks or deep learning, but far quicker than these or other sophisticated algorithms. Tracking is performed with a Keyhole Model of Movement. For description of the techniques see:</p> 
+
+
+
+ <h3>Microfluidic environment and tracking analysis for the observation of Artemia Franciscana,</h3> 
+<h4>Jose Alonso Solis-Lemus, Yushi Huang, Donald Wlodkowic and Constantino Carlos Reyes-Aldasoro <br>
+British Machine Vision Conference 2015, <br>
+Workshop: Machine Vision of Animals and their Behaviour (MVAB 2015) <br>
+https://dx.doi.org/10.5244/C.29.MVAB.4 <br>
+</h4>
+
+
+
  <p><b><i>objectTrack</i></b> has numerous visualisation tools that allow the generation of graphics. In addition, a large number of measurements can be obtained with a minimum effort from the user.</p> 
   
  <p>User interaction is restricted to the following:     (a) Selection of a mask at the beginning of the pre-processing     (b) Selection of threshold levels and a minimum size of object.</p> 

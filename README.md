@@ -97,7 +97,7 @@ https://dx.doi.org/10.5244/C.29.MVAB.4 <br>
  
 <center>
  
- ![objectTrack](Figures/UM_objectTrack_7.png" width=900  alt="">
+ ![objectTrack](Figures/UM_objectTrack_7.png)
  </center><br>
  
  <p>The levels are automatically calculated based on the Otsu algorithm and then presented to the user for visual validation. In the image above, the left panel present the segmentation of the whole image (above) and a small region of interest (below). The central panel presents the image with the background removed, whole and the ROI. The right graph is a histogram of three time point of the data (first, middle, last).</p> 

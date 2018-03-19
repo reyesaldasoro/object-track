@@ -1,6 +1,8 @@
 # object-track
 Tracking of objects, especially Artemia Franciscana
 
+![objectTrack](Figures/ComparisonArtemia3.gif)
+ 
 <h1>Object Track</h1>
   
  <p><b><i>objectTrack</i></b> is a collection of Matlab routines that can be used to track objects from videos. <b><i>objectTrack</i></b> was designed to track small objects that are visible and can be distinguished from their background relatively easily, it is not intended for objects that are too close to each other or situations where the clutter makes it difficult to distinguish the objects themselves.</p> 
